@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *operand2;
 @property (weak, nonatomic) IBOutlet UILabel *operationLabel;
 @property (weak, nonatomic) IBOutlet UILabel *resultLabel;
+@property int i;
 
 
 @end
@@ -24,6 +25,8 @@
 
 }
 - (IBAction)onOperationTap:(UIButton *)sender {
+    double op1 = self.operand1.text.doubleValue;
+    double op2 = self.operand2.text.doubleValue;
 }
 
 
